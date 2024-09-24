@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(94,24,192,1) 0%, rgba(198,86,34,1) 100%);
+}
+
+#container{
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(24,189,192,1) 0%, rgba(198,34,172,1) 100%);
+  font-family: monospace;
+  color: rgb(54, 31, 105);
+}
+
+#topHeader{
+  top:2%;
+  font-weight:bold;
+  font-size: 55px;
+}
+
+.userInput{
+  background-color: rgb(215, 80, 193);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 70%;
+  color: rgba(32, 237, 245, 0.832)
+
+}
+
+label,input{
+  left: 10px;
+}
